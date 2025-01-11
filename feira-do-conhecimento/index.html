@@ -179,6 +179,18 @@
         </section>
     </div>
 
+    <div class="calculadora-de-imc"> 
+        <h2>Deseja calcular seu imc?</h2>
+        <p id="texto_imc"></p>
+        <section class="calculadora-de-imc_botaos">
+            <input type="text" name="altura" id="altura" class="barra_imc" placeholder="Digite a sua altura aqui. Exemplo: 1.86">
+            <input type="text" name="peso" id="peso" class="barra_imc" placeholder="Digite o seu peso aqui. Exemplo: 72">
+            <button onclick="calcularImc()" id="calcular" class="botao_imc"> Calcular IMC</button>
+
+        </section>
+        
+    </div>
+
     <div class="wrapperContainer-dark2 padding" id="escola">
         <section  class="escola">
 
@@ -193,10 +205,13 @@
             </div>
         </section>
     </div>
+
+
     <div class="wrapperContainer-dark">
         <footer>
             Desenvolvido por Alunos do Colegio Militar Dom Pedro II
         </footer>
     </div>
+    <script src="app.js" defer></script>
 </body>
 </html>
